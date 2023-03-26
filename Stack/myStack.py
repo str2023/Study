@@ -40,4 +40,4 @@ class Stack:
     def print(self):
         if not self.isEmpty():
             for i in range(self.top+1):
-                print(self.stack[i], sep=', ')
+                print(self.stack[i], end=' ')
